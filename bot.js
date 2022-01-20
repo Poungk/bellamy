@@ -139,7 +139,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Pikachu working!')
+            chalk.green.bold('✅ Adithya working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -149,8 +149,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 if (conn.user.jid === '@s.whatsapp.net') {
 
                     await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Tespit Edildi!``` \n```Kullanıcı:``` \n```Sebep:``` ', MessageType.text)
-
-                    await new Promise(r => setTimeout(r, 1700));
+await new Promise(r => setTimeout(r, 1700));
 
                     console.log('🛡️ Blacklist Detected 🛡️')
 
@@ -271,7 +270,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
                 //created by afnanplk
                     var plkpinky = await axios.get(config.GIF_BYE, { responseType: 'arraybuffer' })
-                await conn.sendMessage(msg.key.remoteJid, Buffer.from(plkpinky.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message.replace('{gif}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) });
+                await conn.sendMessage(msg.keyremoteJid, Buffer.from(plkpinky.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message.replace('{gif}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) });
             } else {
                 var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
                    await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name), MessageType.text);
@@ -383,7 +382,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ *PIKACHU ERROR FOUND!* ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ *Adithya ERROR FOUND!* ~______~*' +
                                     '\n\n*🧞‍♂️ ' + error + '*\n\n```*Subscribe channel to get updates and to remove errors:* https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw \n Report errors\njoin with +91 \n https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6``` ' 
                                     , MessageType.text);
                             }
@@ -393,20 +392,3 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             }
         )
     });
-
-    try {
-        await conn.connect();
-    } catch {
-        if (!nodb) {
-            console.log(chalk.red.bold('Eski sürüm stringiniz yenileniyor...'))
-            conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
-            try {
-                await conn.connect();
-            } catch {
-                return;
-            }
-        }
-    }
-}
-
-whatsAsena();

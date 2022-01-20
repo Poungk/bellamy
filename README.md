@@ -14,7 +14,7 @@
 <a href="#"><img title="adithya" src="https://img.shields.io/badge/adithyaed?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/ameer-kallumthodi"><img title="" src="https://img.shields.io/badge/Author-ameer-kallumthodi/adithya?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/ameer-kallumthodi"><img title="1636812959841.jpg"src="https://img.shields.io/badge/Author-ameer-kallumthodi/adithya?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">

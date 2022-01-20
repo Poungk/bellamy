@@ -1,5 +1,5 @@
-<a href="https://bit.ly/3koZRGY"><img src="https/
-        <img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
+<a href="https://bit.ly/3koZRGY"><img src="https/1636812959841.jpg
+        <img src="https://media.image.com/media/1636812959841.jpg" alt="IMAGE" width="250" height="200"/>
 </p>
 
 <div align="center">
@@ -59,7 +59,7 @@ Click WA logo to Join Support Group 👇
 Click Pikachu logo to Join Support Group 2👇
     <br>
 <br>
-  <a href="https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6" target="blank"><img align="center" src="https://i.hizliresim.com/pce1372.png" alt="kyrie.baran" height="200" width="200" /></a>
+  <a href="https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6" target="blank"><img align="center" src="https://1636812959841.jpg " alt="kyrie.baran" height="200" width="200" /></a>
 </p>
     
 ## Setup
